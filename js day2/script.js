@@ -108,6 +108,7 @@ let newelement=document.createElement("div")
 y.insertAdjacentHTML("afterend","<b> added by insertadjacentHTML")
 y.insertAdjacentElement("beforeend",newelement)
 
+
 //to removeG
 x.remove()
 
