@@ -9,7 +9,7 @@
 
 // else if(x>0.33 && x<0.66){
 //     first="Amazing"
-   
+   ////
 
 // }
 // else {
