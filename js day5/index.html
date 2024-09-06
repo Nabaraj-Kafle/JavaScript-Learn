@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .child{
+            background-color: yellow;
+            padding: 50px;
+        }
+        .childcontainer{
+            background-color: aqua;
+            padding: 50px;
+
+        }
+        .container{
+            background-color: red;
+            padding: 50px;
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event bubbling</title>
+</head>
+<body>
+   <div class="container">
+    <div class="childcontainer">
+        <div class="child">
+            This is a text.
+        </div>
+    </div>
+   </div>
+   <script>
+    // here event bubbling is removed by adding stopPropagation() method
+
+    document.querySelector(".child").addEventListener("click",(e)=>{
+        e.stopPropagation();
+    alert("child was clicked")
+   })
+   document.querySelector(".childcontainer").addEventListener("click",(e)=>{
+    e.stopPropagation();
+    alert("childcontainer was clicked")
+   })
+   document.querySelector(".container").addEventListener("click",(e)=>{
+    e.stopPropagation();
+    alert("container was clicked")
+   })
+   </script>
+</body>
+</html>
