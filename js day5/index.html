@@ -31,8 +31,7 @@
    </div>
    <script>
     // here event bubbling is removed by adding stopPropagation() method
-
-    document.querySelector(".child").addEventListener("click",(e)=>{
+      document.querySelector(".child").addEventListener("click",(e)=>{
         e.stopPropagation();
     alert("child was clicked")
    })
@@ -45,5 +44,6 @@
     alert("container was clicked")
    })
    </script>
+   
 </body>
 </html>
