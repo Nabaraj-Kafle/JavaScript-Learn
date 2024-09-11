@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/alarm-clock');
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.hea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+
+}
+.box {
+    border: 5px solid black;
+    margin: auto;
+    max-width: fit-content;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: rgb(27, 27, 27);
+    
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'alarm clock', sans-serif;
+    color: red;    
+    
+}
+.but{  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
+}
+.but button{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.start{
+    background-color: rgb(116, 200, 116);
+}
+.start:hover{
+    background-color:rgb(100, 170, 100) ;
+}
+
+.stop{
+    background-color: red ;
+}
+.stop:hover{
+    background-color:rgb(213, 67, 67) ;
+}
+.reset{
+    background-color: rgb(70, 166, 198);
+}
+.reset:hover{
+    background-color:rgb(60, 144, 172) ;
+}
