@@ -12,10 +12,6 @@ function play(playerChoice){
  const n= document.getElementById("cc")
  const o= document.getElementById("result")
 
-
-     
-
-
     if (computerChoice===playerChoice) {
         result="Its a draw."
         
@@ -26,7 +22,7 @@ function play(playerChoice){
     }
     m.textContent=`Player Choice :    ${playerChoice}`
     n.textContent=`Computers Choice :     ${computerChoice}`
-    o.textContent=`Result :     ${result}`
+    o.textContent=`Result :    ${result}`
 
     
 
