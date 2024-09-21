@@ -22,9 +22,9 @@ let newarr2 = arr.filter(greaterthan50)         // can also directly put it here
 console.log(newarr2)
 
 //reduce = Reduces an array to a single value
-
 const addred = (a,b) =>{
     return a+b
 }
 newarr3 = arr.reduce(addred)    // first performs 1+4 then (the result) + 56 then (that result) + 2 and so on
+
 console.log(newarr3)
