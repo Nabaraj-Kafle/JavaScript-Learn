@@ -26,5 +26,4 @@ const addred = (a,b) =>{
     return a+b
 }
 newarr3 = arr.reduce(addred)    // first performs 1+4 then (the result) + 56 then (that result) + 2 and so on
-
 console.log(newarr3)
