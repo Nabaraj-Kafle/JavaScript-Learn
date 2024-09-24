@@ -7,7 +7,6 @@ let k= document.getElementById("inc")
 function updateDisplay() {
     a.textContent = m
 }
-
 function color(){
     if (a.textContent>0) {
           a.style.color="green"
