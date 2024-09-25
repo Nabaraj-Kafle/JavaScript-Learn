@@ -19,6 +19,7 @@ function color(){
         a.style.color="black"
  
     }
+    
 }
 
 
