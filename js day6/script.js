@@ -8,7 +8,7 @@ async function doTask(){
 }
 
 async function main() {
-    
+
     
     console.log("hello")
     
@@ -19,6 +19,8 @@ async function main() {
     console.log("first task printed")
     console.log("first task finished")
     console.log("end")
+
+    
 }
 
 main()
