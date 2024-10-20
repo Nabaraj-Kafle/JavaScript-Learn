@@ -18,6 +18,7 @@ async function main() {
     console.log(data)
     console.log("first task printed")
     console.log("first task finished")
+    
     console.log("end")
 
     
