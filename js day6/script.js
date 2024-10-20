@@ -17,6 +17,7 @@ async function main() {
     let data = await doTask()
     console.log(data)
     console.log("first task printed")
+    
     console.log("first task finished")
     
     console.log("end")
